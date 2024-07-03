@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Tmat.h5 Test Website"
+  navbar:
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/nano-optics/tmat-h5
+          - text: Discussion
+            url:  https://github.com/nano-optics/tmat-h5/discussions
+    left:
+      - text: "Exporting to HDF5"
+        menu:
+        - export_julia.qmd 
+        - export_matlab.qmd 
+        - export_python.qmd 
+        - export_R.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
